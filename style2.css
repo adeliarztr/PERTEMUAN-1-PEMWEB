@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://i.pinimg.com/736x/ca/37/c1/ca37c11100be53648d9a22f95db9ba81.jpg');
+    margin: 0;
+    padding: 20px;
+}
+
+.container-satu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+    padding: 15px;
+    background-color: skyblue;
+    border-radius: 12px;
+}
+
+.kolom-utama {
+    flex: 2;
+    order: 2;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    background: aquamarine;
+    margin: 0 10px;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+    background: skyblue;
+    padding: 15px;
+    margin-left: 10px;
+    max-width: 200px;
+    border-radius: 12px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
